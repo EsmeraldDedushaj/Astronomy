@@ -1,0 +1,347 @@
+
+
+body{
+  background-color: lightgray;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* This is the homepage */
+
+header{
+  min-height: 80px;
+  background-color: #545B69;
+  color: white;
+  padding-top: 30px;
+  border-bottom: solid 3px #e8491d;
+}
+
+.btn{
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "monsterrat";
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.btn, .btn_one{
+  height: 35px;
+  color: white;
+  background-color: red;
+}
+
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+
+header li{
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#branding{
+  display: left;
+  padding-left: 20px;
+}
+
+#branding h1{
+  margin: auto;
+  cursor: pointer;
+}
+
+header .hightlight{
+  color: #e8491d;
+}
+
+header a:hover{
+  color: #e8491d;
+  text-decoration: underline;
+}
+
+header .active a{
+  background-color: #e8491d;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+#showcase{
+  min-height: 400px;
+  width: 100%;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Hubble_ultra_deep_field_high_rez_edit1.jpg/1200px-Hubble_ultra_deep_field_high_rez_edit1.jpg);
+  text-align: center;
+  color: white;
+}
+
+#showcase h1{
+  padding-left: 340px;
+  padding-top: 60px;
+  font-size: 55px;
+  text-align: center;
+}
+
+#showcase h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+#showcase h1 a:hover{
+  color: #e8491d;
+}
+
+#showcase p{
+  padding-left: 100px;
+  padding-top: 80px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#newsletter{
+  padding: 5px;
+  background-color: #545B69;
+  color: white;
+}
+
+#newsletter h1{
+  float: left;
+  padding-left: 20px;
+}
+
+#newsletter form{
+  float: right;
+  padding-top: 10px;
+}
+
+#newsletter input{
+  padding: 5px;
+  height: 25px;
+  width: 250px;
+}
+
+#newsletter .btn_two{
+  background-color: blue;
+  margin-top: 3px;
+}
+
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  text-align: center;
+}
+
+#boxes a{
+  text-decoration: none;
+  background-color: #e8491d;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#boxes a:hover{
+ color: white;
+}
+
+marquee{
+  border-top: 3px solid red;
+  background-color: #B4B7D0;
+}
+
+marquee p{
+  text-align: center;
+}
+
+marquee img{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+}
+
+/* This is Earth page */
+
+#showcase_one{
+  min-height: 400px;
+  width: 100%;
+  background: url(https://cdn.theatlantic.com/media/img/photo/2017/04/portraits-of-the-earth-moon-system/m01_M1199291564L-1/original.jpg) 0 -400px;
+  text-align: center;
+  color: white;
+}
+
+#showcase_one h1{
+  padding-left: 340px;
+  padding-top: 60px;
+  font-size: 55px;
+  text-align: center;
+}
+
+#showcase_one h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+#showcase_one h1 a:hover{
+  color: #e8491d;
+}
+
+#showcase_one p{
+  padding-left: 100px;
+  padding-top: 80px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bigbg{
+  background: #B4B7D0;
+}
+
+.bigbg h2{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+section .more{
+  background-color: #0C6A09;
+  min-height: 70px;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  text-transform: uppercase;;
+  font-weight: bold;
+}
+
+section .more p{
+  color: black;
+}
+
+section .more a{
+  text-decoration: none;
+}
+
+section .more a:hover{
+  color: #e8491d;
+  text-decoration: underline;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  padding-bottom: 30px;
+  grid-gap: 1em;
+  margin: 25px;
+  justify-content: space-around;
+}
+
+.wrapper > div{
+  background: #eee;
+  padding: 1em;
+}
+.wrapper h5{
+  text-align: center;
+  background-color: #B4B7D0;
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+aside {
+  float: right;
+  width: 24%;
+  margin-left: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+aside h5{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #09146A;
+}
+
+article{
+  text-align: justify;
+  margin-left: 300px;
+}
+
+article .container_one{
+  width: 60%;
+}
+
+article p:nth-child(1n + 4){
+  text-indent: 30px;
+}
+
+fieldset{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+fieldset .container_one{
+  width: 60%;
+}
+
+fieldset ul li:nth-child(odd){
+  background-color: #B4B7D0;
+  color: black;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.newsletterone{
+  min-height: 70px;
+  background-color: #545B69;
+  display: flex;
+  justify-content:space-around;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.newsletterone a{
+  text-decoration: none;
+  color: white;
+}
+
+.newsletterone a:hover{
+  color: #e8491d;
+}
+/* This is the footer */
+
+footer{
+  background-color: #545B69;
+  min-height: 80px;
+  border-top: 3px solid red;
+}
+
+footer p{
+  text-align: center;
+}
